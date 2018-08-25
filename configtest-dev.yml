@@ -11,4 +11,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://admin:admin@8761.b.bangmc.vip//eureka/
+      defaultZone: http://admin:admin@8761.b.bangmc.vip/eureka/

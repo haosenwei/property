@@ -2,12 +2,8 @@ spring:
   rabbitmq: #RabbitMQ相关的配置
     host: 59.110.218.135
     port: 5672
-    username: guest
-    password: guest
-  cloud:
-    config:
-      profile: dev
-      uri: http://8888.b.bangmc.vip/
+    username: admin
+    password: admin
 eureka:
   client:
     service-url:

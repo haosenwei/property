@@ -4,6 +4,10 @@ spring:
     port: 5672
     username: guest
     password: guest
+  cloud:
+    config:
+      profile: dev
+      uri: http://8888.b.bangmc.vip/
 eureka:
   client:
     service-url:

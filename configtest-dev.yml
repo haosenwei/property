@@ -1,10 +1,10 @@
 spring:
   rabbitmq: #RabbitMQ相关的配置
-    host: localhost
+    host: 59.110.218.135
     port: 5672
     username: guest
     password: guest
 eureka:
   client:
     service-url:
-      defaultZone: http://admin:admin@localhost:8761/eureka/
+      defaultZone: http://admin:admin@8761.b.bangmc.vip//eureka/
